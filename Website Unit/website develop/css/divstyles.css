@@ -1,0 +1,35 @@
+/*positioning styles*/
+.common{
+    position:absolute;
+    padding: 5px;
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightcyan;
+    z-index:2;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+.nav{
+    position: relative;
+    float: right;
+    z-index: 1;
+}
